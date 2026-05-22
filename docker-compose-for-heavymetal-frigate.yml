@@ -46,6 +46,7 @@ services:
         target: /tmp/cache
         tmpfs:
           size: 536870912 # 512mb
+          mode: 1777
     networks:
       networks_traefik_proxy:
         aliases:
